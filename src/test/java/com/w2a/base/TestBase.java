@@ -73,7 +73,7 @@ public class TestBase {
 				driver = new InternetExplorerDriver();
 			}
 			
-			driver.get(config.getProperty("testsiteurl"));
+			driver.get(config.getProperty("testsiteUrl"));
 			driver.manage().window().maximize();
 			//driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")),TimeUnit.SECONDS);
 		}
